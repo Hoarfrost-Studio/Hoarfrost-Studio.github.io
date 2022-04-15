@@ -1,0 +1,21 @@
+::-webkit-scrollbar {
+  width: 10px;
+  height: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #f0c9cf;
+  border-radius: 1rem;
+  min-height: 60px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #f1c4cd;
+}
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+[data-user-color-scheme='dark'] ::-webkit-scrollbar-thumb {
+  background-color: #687582;
+}
+[data-user-color-scheme='dark'] ::-webkit-scrollbar-thumb:hover {
+  background-color: #9da8b3;
+}
